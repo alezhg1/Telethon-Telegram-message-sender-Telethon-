@@ -78,7 +78,7 @@ os, re               # (встроенные библиотеки Python)
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/yourusername/telegram-message-sender.git
+git clone https://github.com/alezhg1/Telethon-Telegram-message-sender-Telethon-
 cd telegram-message-sender
 
 # 2. Создайте виртуальное окружение
@@ -156,11 +156,10 @@ python3 -c "import telethon; print(telethon.__version__)"
 # config.py
 
 # Получить ID и HASH на https://my.telegram.org/
-API_ID = '28462178'              # Ваш API ID (числовое значение)
-API_HASH = '0a96115f22d77abb...' # Ваш API HASH (строка)
+API_ID = 'xxxxxxxx'              #брать на https://my.telegram.org
+API_HASH = 'xxxxxx' #брать на https://my.telegram.org
 
-# Ваш номер телефона в формате +7 (Россия)
-PHONE_NUMBER = '+79151234567'
+PHONE_NUMBER = '+xxxxxxxxxxx' # Ваш номер телефона
 
 # Имя файла сессии (создается автоматически)
 SESSION_FILE = 'sender_bot.session'
